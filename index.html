@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p>New Employees</p>
+    <form id="employeeForm">
+      <div class="details">
+        <div class="flex">
+          <label for="name">Enter Name</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="flex">
+          <label for="profession">Enter Profession</label>
+          <input type="text" id="profession" />
+        </div>
+        <div class="flex">
+          <label for="age">Enter Age</label>
+          <input type="number" id="age" />
+        </div>
+      </div>
+      <button type="button" onclick="addEmployee()" id="addButton">Add User</button>
+    </form>
+    <div id="messageContainer"></div>
+    <p>Added Employees</p>
+    <div id="employeeList"></div>
+    <div id="noEmployees" style="display: none">You have 0 Employees.</div>
+    <script src="script.js"></script>
+  </body>
+</html>

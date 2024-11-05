@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: "Inter";
+}
+.details {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  outline-style: none;
+  color: white;
+  box-sizing: border-box;
+}
+#addButton {
+  border-style: none;
+  width: 150px;
+  padding: 10px;
+}
+.deleteButton {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 7px;
+  width: 150px;
+}
+#messageContainer {
+  margin: 20px 0px;
+}
+.message {
+  margin: 10px 0px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+.employee {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 20px;
+}
+.employeeDetails {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  min-width: 350px;
+}
+.employeeDetails div {
+  display: flex;
+  gap: 5px;
+}
+#noEmployees {
+  color: rgba(255, 255, 255, 0.5);
+}
+#employeeList {
+  margin: 25px 0px;
+}
